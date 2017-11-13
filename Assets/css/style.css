@@ -148,6 +148,7 @@ li {
     float: left;
     width: 650px;
     margin: 0 auto;
+    margin-bottom: 100px;
     /*padding-left: 20px;*/
     background-color: white;
     border: 1px solid #e1e4ea;
@@ -306,15 +307,16 @@ position: absolute;
     }
     #main-bio {
         width: 340px;
+        margin-bottom: 100px;
     }
 
     #sidebar {
         width: 220px;
     }
 
-    .main-name {
+    /*.main-name {
         margin-left: 190px;
-    }
+    }*/
 
     .hr-one {
         width: 300px;
@@ -376,7 +378,7 @@ position: absolute;
     #main-bio {
         /*clear: both;
         float: left;*/
-        /*margin: auto;*/
+        margin: auto;
         width: 100%;
     }
 
@@ -386,6 +388,7 @@ position: absolute;
         padding-left: 0px;
         margin-left: 15px;
         margin-top: 20px;
+        margin-bottom: 100px;
         width: 95%;
     }
 
@@ -426,7 +429,7 @@ position: absolute;
 
     .project-two {
         top: 370px;
-        right: 35px;
+        right: 295px;
     }
 
     .project-three {
@@ -435,7 +438,7 @@ position: absolute;
 
     .project-four {
         top: 830px;
-        right: 35px;
+        right: 295px;
     }
     .project-five {
         bottom: -1120px;
@@ -443,7 +446,7 @@ position: absolute;
 
     .project-six {
         bottom: -1355px;
-        right: 35px;
+        right: 295px;
     }
 
     input {
@@ -456,6 +459,7 @@ position: absolute;
     .container{
         /*width: 768px;*/
         padding: 20px;
+        margin-top: 50px;
     }
 
     .top-nav{
@@ -465,12 +469,13 @@ position: absolute;
 
     .nav-container {
         height: inherit;
+        width: 640px;
     }
 
     #main-bio {
         /*clear: both;
         float: left;*/
-        /*margin: auto;*/
+        margin: auto;
         width: 100%;
     }
 
@@ -505,7 +510,9 @@ position: absolute;
     }
 
     .main-name {
-        margin-left: 190px;
+        /*margin-left: 190px;*/
+        text-align: center;
+        width: 100%;
     }
 
     .hr-one {
@@ -527,7 +534,10 @@ position: absolute;
     }
 
     ul {
-        padding-right: 190px;
+        /*padding-right: 190px;*/
+    display: inline;
+    width: 100%;
+
     }
 
     .project-two {
